@@ -20,6 +20,7 @@ public class DatabaseLoader implements CommandLineRunner {
 	public void run(String... strings) throws Exception {
 		this.repository.save(new Book("The Alchemist", "Paulo Coelho"));
 		this.repository.save(new Book("Fahrenheit 451", "Ray Bradbury"));
+		this.repository.save(new Book("Test", "Author of Test"));
 	}
 
 }
